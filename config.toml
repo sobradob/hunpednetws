@@ -3,6 +3,7 @@ baseurl = "http://my-awesome-site.com/"
 languageCode = "en-us"
 title = "HunPedNet"
 theme = "hugo-freelancer-theme"
+publishDir = "docs"
 
 
 [params]
