@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://my-awesome-site.com/"
+baseurl = "sobradob.github.io/hunpednetws/"
 languageCode = "en-us"
 title = "HunPedNet"
 theme = "hugo-freelancer-theme"
