@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "hunped.net"
+baseurl = "hunped.net/"
 languageCode = "en-us"
 title = "HunPedNet"
 theme = "hugo-freelancer-theme"
