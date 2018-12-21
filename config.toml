@@ -30,14 +30,14 @@ publishDir = "docs"
     email = "your@email.com"
 
     [params.navigation]
-        brand = "Hungarian Pediatric Network"
+        brand = "HunPedNet"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.jpg"
-        name = "Hungarian Pediatric Network"
-        subtitle = "Medicine - Research - Children"
+        name = "HunPedNet"
+        subtitle = "Hungarian Primary Care Pediatricians' Clinical Research Network"
 
 
     [params.portfolio]
@@ -45,7 +45,7 @@ publishDir = "docs"
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
-        title = "Services"
+        title = "Services/Szolgáltatások"
 
         [params.portfolio.modal]
             client = "Client"
@@ -55,63 +55,59 @@ publishDir = "docs"
 
 
     [params.about]
-        title = "About"
+        title = "About/Ròlunk"
         # The about text is splitted into a left and right column
-        left = "HunPedNet was founded in 2016 by pediatricians experienced in pediatric clinical trials as part of the National Association of Primary Care Pediatricians (Házi Gyerek Orvosok Országos Egyesülte). The aim of the Network is to contribute to the development of Hungarian pediatric clinical studies and research. HunPedNet is strictly committed to high quality pediatric clinical trials. We take an active role in ensuring clinical studies in which minors participate are conducted in an efficient and effective manner. The network facilitates the coordination between Pharmaceutical Companies, their representatives (CROs) and independent researchers."
-        right = "We facilitate participation in pediatric research and making cutting-edge pharmaceutical R&D accessible to Hungarian children. Our large patient pool, which practically covers the entire country, facilitates recruitment. Studies are carried out by paediatric practitioners and subspecialists, with a focus on epidemiological, Phase II-III-IV studies involving both healthy and sick children. We have extensive international experience working as investigators but also as sponsors (monitoring, study management) in clinical pharmacology, having recruited experts and investigators as specialists in trials and audits. We  believe in close contact to patients and their families and follow the highest ethical and professional standards."
+        left = "HunPedNet was founded in 2016 by pediatricians experienced in pediatric clinical trials as part of the National Association of Primary Care Pediatricians (Házi Gyerek Orvosok Országos Egyesülte). The aim of the Network is to contribute to the development of Hungarian pediatric clinical studies and research. HunPedNet is strictly committed to high quality pediatric clinical trials. We take an active role in ensuring clinical studies in which minors participate are conducted in an efficient and effective manner. The network facilitates the coordination between Pharmaceutical Companies, their representatives (CROs) and independent researchers.<br><br>We facilitate participation in pediatric research and making cutting-edge pharmaceutical R&D accessible to Hungarian children. Our large patient pool, which practically covers the entire country, facilitates recruitment. Studies are carried out by paediatric practitioners and subspecialists, with a focus on epidemiological, Phase II-III-IV studies involving both healthy and sick children. We have extensive international experience working as investigators but also as sponsors (monitoring, study management) in clinical pharmacology, having recruited experts and investigators as specialists in trials and audits. We  believe in close contact to patients and their families and follow the highest ethical and professional standards."
+        right = "2016-ben határoztuk el, hogy a Házi Gyermekorvosok Országos Érdekképviseleti és Szakmai Szervezetének keretein belül létrehozzuk a Magyar Házi Gyermekorvosok Klinikai Vizsgálati Hálózatát (HunPedNet), mint önálló jogi személyiséggel felruházott szervezeti egységet, melynek bejegyzése 2017-ben meg is történt. A szervezet célja: az egészségügyi alapellátás területén, kiemelten a házi gyermekorvosi ellátásban dolgozó orvosok klinikai és akadémiai vizsgálatokban történő részvételének elősegítése. A klinikai vizsgálatokban való részvétel lehetőségének elérhetővé tétele a magyar gyermekek számára. A klinikai és akadémiai vizsgálatokban résztvevő gyermekorvosok érdekeinek védelme, a vizsgálatokban való részvételük háttér-támogatása érdekében képzés, továbbképzés, adminisztratív, jogi segítség és egyéb szolgáltatások nyújtása révén.."
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            text = "Documents/Dokumentumok"
+            link = "//drive.google.com/open?id=18Qjq3-mpE9sxjgs6IDNwGsp38HTPnmSS"
             icon = "download"
 
 
     [params.contact]
-        title = "Kapcsolat"
+        title = "Contact/Kapcsolat"
 
         # 'error' defines error messages for invalid inputs
         [params.contact.form.name]
-            text = "Name"
+            text = "Name/Név"
             error = "Please enter your name."
 
         [params.contact.form.email]
-            text = "Email Address"
+            text = "Email"
             error = "Please enter your email address."
 
         [params.contact.form.phone]
-            text = "Phone Number"
+            text = "Phone/Telefon"
             error = "Please enter your phone number."
 
         [params.contact.form.message]
-            text = "Message"
+            text = "Message/Üzenet"
             error = "Please enter a message."
 
         [params.contact.form.button]
-            text = "Send"
+            text = "Send/Küldés"
 
 
     [params.footer]
         copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
 
         [params.footer.location]
-            title = "Location"
+            title = "Location/Székhely"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["Ipoly utca 5/E", "Budapest 1133, Hungary"]
 
         [params.footer.social]
-            title = "Around the web"
+            title = "Email"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/spf13/hugo"
-
-            [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                icon = "fa-envelope"
+                link = "mailto:hunpednet@gmail.com"
 
 
         [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+            title = "Corresponding Address/Levelezési cím"
+            text = "3519 Miskolc Bagoly utca 4. hunpednet@gmail.com"
